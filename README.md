@@ -13,7 +13,7 @@ Run through the guide at [RNN guide](https://www.tensorflow.org/guide/keras/rnn)
 
 1.   Give 1-2 sentence description of keras.
 
-TODO
+The Keras recurrent neural network (RNN) API is a customizable and easy to use way you can model sequence data. Keras uses layers with different attributes to make different models such as a `Sequential` model of given data.
 
 2.   Give a short explanation of the following:
 
