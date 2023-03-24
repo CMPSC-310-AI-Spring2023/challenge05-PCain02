@@ -17,18 +17,16 @@ The Keras recurrent neural network (RNN) API is a customizable and easy to use w
 
 2.   Give a short explanation of the following:
 
-- `Embedding`
--  `Dropout` 
-
-TODO
+- `Embedding` - Embedding layers involves mapping variables to vectors of data. 
+-  `Dropout` - In RNNs dropout is like the noise that is dropped from the neural network in a means for improving results
 
 ### Part 2: Unidirectional vs Bidirectional
 
 1.   Give 2-3 sentence explanation of how bidirectional RNNs are different from unidirectional RNNs.
 
+One way bidirectional RNNs are different from unidirectional RNNs is that bidirectional RNNs look at the context around the word whereas unidirectional do not. Bidirectional models require additional training because it looks at information from in front of the current focus and behind. On the other hand, Unidirectional RNNs only take information from the past.
+
 
 ### Part 3: Add code
 
 1.   Include the code from "Recurrent Neural Networks (RNN) with Keras" guide that you ran (must show output) as a Google Colab notebook in your challenge 5 repository.
-
-TODO
